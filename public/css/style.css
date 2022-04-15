@@ -1,0 +1,113 @@
+@charset "utf-8";
+body{
+    background-image: linear-gradient(to right top, #d8c8ff, #ffb2e6, #ffa89a, #ffc53b, #a8eb12);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+span,
+button{
+    display: block;
+}
+
+.memo_area{
+    display: flex;
+
+}
+
+.add_area{
+    width: 40%;
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+}
+.add_card{
+    width: 300px;
+    margin: auto;
+    min-height: 400px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-weight: bold;
+    text-align: center;
+    font-size: 21px;
+    padding: 20px 10px;
+}
+
+.show_area{
+    width: 45%;
+    display: block;
+    margin: 50px auto 0 auto;
+}
+
+.memo_card{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-bottom: 30px;
+    padding: 20px 10px;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.memo_title{
+    width: 75%;
+}
+.edit,
+.del{
+    border-radius: 999px;
+    margin-right: 5px;
+}
+.edit input,
+.del input{
+    border-radius: 999px;
+    background: rgba( 255, 255, 255, 0.4 );
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+
+}
+.edit{
+    border: #1cad23 solid 5px;
+}
+.del{
+    border: #ff2647 solid 5px;
+}
+.add_form{
+    margin-top: 30px;
+}
+textarea{
+    background: rgba( 255, 255, 255, 0.75 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding-left: 3px;
+    font-size: 18px;
+    width: 80%;
+}
+.submit{
+    background-color: transparent;
+    border: rgba( 255, 255, 255, 0.75 ) solid 5px;
+    border-radius: 999px;
+    width: 80%;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.submit:hover{
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    transition: .3s;
+}
